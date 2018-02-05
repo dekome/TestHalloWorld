@@ -1,9 +1,10 @@
 language: java
-jdk: oraclejdk8
+
+before_install:
+  - chmod +x gradlew
+jdk: 
+  -oraclejdk8
 sudo: required
 
 env:
   - ACTIVITY_TRACKER_IDEA_VERSION=IC-172.3757.29
-
-before_script:
-  - chmod +x gradlew
