@@ -6,4 +6,4 @@ before_install:
   - chmod +x gradlew
 
 env:
-  - ACTIVITY_TRACKER_IDEA_VERSION=IC-172.3757.29
+  - ACTIVITY_TRACKER_IDEA_VERSION=IC-173.0
