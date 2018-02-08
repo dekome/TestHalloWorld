@@ -7,3 +7,10 @@ before_install:
 
 env:
   - ACTIVITY_TRACKER_IDEA_VERSION=IC-173.0
+
+deploy:
+  provider: releases
+  api_key:
+    secure: d84fd28bb04fb45f6b3354a3a7ab0c1df6527b2a
+  file: build/libs/TestHalloWorld-1.0.jar
+  skip_cleanup: true
