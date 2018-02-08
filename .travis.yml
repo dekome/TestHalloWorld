@@ -11,6 +11,6 @@ env:
 deploy:
   provider: releases
   api_key:
-    secure: d84fd28bb04fb45f6b3354a3a7ab0c1df6527b2a
+    secure: 2d185c3fe8385dec3dceffb21a53081607710dc4
   file: build/libs/TestHalloWorld-1.0.jar
   skip_cleanup: true
